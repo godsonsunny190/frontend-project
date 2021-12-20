@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <div class="row">
+    <div class="col-md-6">
+        <div id="wrapper">
+             <div id="div2">
+                
+                
+        <h1>Create an account</h1>
+        <p>It's free and always will be </p>
+        <form #login="ngForm" (ngSubmit)="register(login)">
+        <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="regservices.selectedregister._id"><br><br>
+        <li><input type="text" name="name"  placeholder="First Name" #name="ngModel" [(ngModel)]="regservices.selectedregister.name" id="firstname">
+        <input type="text" name="surename" #name="ngModel" [(ngModel)]="regservices.selectedregister.surename"  placeholder="Surname" id="surname"></li>
+        <li><input type="text" name="email"#name="ngModel" [(ngModel)]="regservices.selectedregister.email" placeholder="Enter your email address"></li>
+        <li><input type="text" name="number" #name="ngModel" [(ngModel)]="regservices.selectedregister.number"  placeholder="Enter your mobile number"></li>
+        <li><input type="password" name="password" #name="ngModel" [(ngModel)]="regservices.selectedregister.password" placeholder="Enter password"></li>
+        <p>Date of Birth</p>
+        <li>
+        <select><option>Day</option></select>
+        <select><option>Month</option></select>
+        <select><option>Year</option></select>
+        <a href=""></a>
+        </li>
+        <li><input type="radio">Female <input type="radio">Male</li>
+        <li><input class="account" type="submit" value="Create an account"></li>
+        <button type="submit">Submit</button>
+        <button type="button" (click)="resetForm(login)">Reset</button>
+     </form>
+     </div>
+        </div>
+     </div>
+ </div>
+
+   
+   
+
+ 
+    
+   
+
+</body>
+</html>

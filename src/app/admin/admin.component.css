@@ -1,0 +1,24 @@
+body{
+    margin-top:20px;
+    background:#f8f8f8
+}
+.newuser{
+    background-color: #0cbaba;
+    border: none;
+}
+.newuser:hover{
+    background: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+a{
+   color: #0cbaba;
+}
+a:hover{
+    color: #380036;
+}
+table th{
+    width: 250px;
+    text-align: center;
+    border: solid#0cbaba ;
+    font-weight: normal;
+}

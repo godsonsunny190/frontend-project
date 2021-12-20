@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #f4f4f4;
+  }
+  
+  .banner {
+    background-color: #0cbaba;
+    
+  }

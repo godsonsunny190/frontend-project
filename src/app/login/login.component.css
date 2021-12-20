@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+	box-sizing: border-box;
+}
+.box{
+    margin-left: 60%;
+    margin-top: 80px;
+    
+}
+.login-form {
+  	min-width: 150px;
+  	max-width: 350px;
+	border-radius: 12px;
+	padding: 15px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 20px;
+}
+
+.login-form input[type = "text"] {
+	margin-top: 30px;
+}
+.login-form input[type = "password"] {
+	margin-top: 10px;
+}
+input.create{
+    width: 60%;
+    height: 45px;
+    border: none;
+    background-color: #0cbaba;
+    border-radius: 10px;
+    font-family: inherit;
+	font-size: 15px;
+    color: white;
+    margin-top: 15px;
+	margin-left: 65px;
+}
+
+input {
+  outline: none;
+ }
+label{
+    padding-top: 25px;
+    padding-left: 100px;
+    text-decoration: underline;
+      
+}
+label:hover{
+    color: #3b5998;
+}
+
+.login-form input[type = "submit"] {
+	background-color: #0cbaba;
+	width: 100%;
+	color:white;
+  	border: none;
+	margin-top: 35px;
+  	cursor: pointer;
+	padding: 10px;
+  	font-family: 'Raleway', sans-seriff;
+  	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: 0.25s;
+}
+.login-form input[type = "submit"]:hover {
+	opacity: 0.8;
+}
+.login-form input[type = "text"]:focus, .login-form input[type = "password"]:focus {
+ 	border: 2px #21D4FD solid;
+ }
+.login-form input[type = "text"], .login-form input[type = "password"] {
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+  	font-size: 1rem;
+  	font-family: 'Raleway', sans-seriff;
+	background-color: gainsboro;
+	padding: 15px;
+} 
+p{
+	font-size: 15px;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+input.create:hover{
+   background-color: #3b5998;
+}
